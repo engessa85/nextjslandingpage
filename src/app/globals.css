@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-style {
+  @apply text-slate-900 hover:text-orange-700 transition-all ease-in-out
+}
+
+.button-style {
+  @apply bg-orange-500 px-6 py-2 rounded-full text-white hover:bg-slate-900 transition-all ease-in-out
+}
